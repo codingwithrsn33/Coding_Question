@@ -1,0 +1,15 @@
+# 14. Remove duplicates from list (preserve order)
+
+
+def remove_duplicates(n):
+    unique_list = []
+    
+    for item in n:
+        if item not in unique_list:
+            unique_list = unique_list + [item]
+    
+    return unique_list
+    
+print(remove_duplicates([1,2,2,3,1,4]))
+    
+    
