@@ -11,8 +11,6 @@ print (reverse_string("Suresh"))
 
 # Method 2 (Without using built in functionality)
 
- 
-
 def reverse_string(s):
     s=list(s)
     
